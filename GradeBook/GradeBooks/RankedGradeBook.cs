@@ -9,9 +9,7 @@ namespace GradeBook.GradeBooks
     {
         public StandardGradeBook(string name) : base(name)
         {
-            Name = name;
-            Type = GradeBookType.Standard;
-            Students = new List<Student>();
+            Type = GradeBookType.Ranked;
         }
     }
 }
